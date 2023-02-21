@@ -1,12 +1,11 @@
-package lesson8;
+package lesson8_FinalProject;
 
-import lesson8.components.DigitJButton;
-import lesson8.components.OperatorJButton;
-import lesson8.listener.*;
+import lesson8_FinalProject.components.DigitJButton;
+import lesson8_FinalProject.components.OperatorJButton;
+import lesson8_FinalProject.listener.*;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ApplicationForm extends JFrame {
@@ -15,7 +14,7 @@ public class ApplicationForm extends JFrame {
 
     public ApplicationForm(String title) {
         super(title);
-        setBounds(850,300,300,400);
+        setBounds(850,300,400,400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setAlwaysOnTop(true);
 

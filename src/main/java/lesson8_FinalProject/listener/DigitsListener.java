@@ -1,13 +1,13 @@
-package lesson8.listener;
+package lesson8_FinalProject.listener;
 
-import lesson8.components.CalcBuffer;
+import lesson8_FinalProject.components.CalcBuffer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static lesson8.components.CalcBuffer.ExpressionStatus.endExpression;
-import static lesson8.components.CalcBuffer.ExpressionStatus.newExpression;
+import static lesson8_FinalProject.components.CalcBuffer.ExpressionStatus.endExpression;
+import static lesson8_FinalProject.components.CalcBuffer.ExpressionStatus.newExpression;
 
 public class DigitsListener extends ButtonListener implements ActionListener {
     public DigitsListener(JTextField inputField) {
@@ -18,6 +18,7 @@ public class DigitsListener extends ButtonListener implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(CalcBuffer.getExpressionStatus() == endExpression){
             getInputField().setText("");
+            CalcBuffer.setInputBuffer("");    //TODO <-- добавил
             CalcBuffer.setExpressionStatus(newExpression);
         }
 

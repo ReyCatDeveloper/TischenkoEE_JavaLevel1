@@ -4,61 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b356f2-b856-4098-990b-11cbf778d971" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/HomeWorkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson1/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/TicTacToe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom1To2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom1To2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom1To2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom1To2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Barrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson7/Plate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/ApplicationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/CalcAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/DigitJButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/components/OperatorJButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/listener/ButtonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/listener/CalcResultButtonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/listener/ClearFieldButtonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/listener/DigitsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson8/listener/OperatorsListener.java" afterDir="false" />
+    <list default="true" id="73b356f2-b856-4098-990b-11cbf778d971" name="Changes" comment="int final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/ApplicationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/ApplicationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/CalcAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/CalcAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/DigitJButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/DigitJButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/Digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/Digits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/MathOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/MathOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/components/OperatorJButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/OperatorJButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/listener/ButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/listener/ButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/listener/CalcResultButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/listener/CalcResultButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/listener/ClearFieldButtonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/listener/ClearFieldButtonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/listener/DigitsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/listener/DigitsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/listener/OperatorsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8_FinalProject/listener/OperatorsListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +69,7 @@
       <recent name="lesson8.components" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson8.Main">
+  <component name="RunManager" selected="Application.lesson8_FinalProject.Main">
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.Employee" />
       <module name="GB_Homework_lesson1" />
@@ -161,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8.Main" />
+    <configuration name="lesson8_FinalProject.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8_FinalProject.Main" />
       <module name="GB_Homework_lesson1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8.*" />
+          <option name="PATTERN" value="lesson8_FinalProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson8.Main" />
+        <item itemvalue="Application.lesson8_FinalProject.Main" />
         <item itemvalue="Application.lesson7.Main" />
         <item itemvalue="Application.lesson6.taskFrom3To4.Main" />
         <item itemvalue="Application.Main" />
@@ -193,7 +154,19 @@
       <option name="presentableId" value="Default" />
       <updated>1673242234195</updated>
     </task>
+    <task id="LOCAL-00001" summary="int final">
+      <created>1676799986815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676799986816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="int final" />
+    <option name="LAST_COMMIT_MESSAGE" value="int final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,49 +872,29 @@
           <option name="timeStamp" value="496" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>177</line>
-          <option name="timeStamp" value="507" />
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="588" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>179</line>
-          <option name="timeStamp" value="509" />
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="589" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>181</line>
-          <option name="timeStamp" value="510" />
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="590" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="535" />
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="595" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>188</line>
-          <option name="timeStamp" value="536" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>178</line>
-          <option name="timeStamp" value="537" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>164</line>
-          <option name="timeStamp" value="539" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/listener/OperatorsListener.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="540" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lesson8/components/CalcBuffer.java</url>
-          <line>198</line>
-          <option name="timeStamp" value="541" />
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="597" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/lesson4/TicTacToe.java</url>
@@ -987,6 +940,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>212</line>
+          <properties class="lesson8_FinalProject.components.CalcBuffer" method="getInputBuffer">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson8_FinalProject/components/CalcBuffer.java</url>
+          <line>237</line>
+          <properties class="lesson8_FinalProject.components.CalcBuffer" method="setInputBuffer">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="596" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/lesson6/taskFrom3To4/Cat.java</url>

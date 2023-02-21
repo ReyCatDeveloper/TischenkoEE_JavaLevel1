@@ -1,7 +1,7 @@
-package lesson8.components;
+package lesson8_FinalProject.components;
 
-import static lesson8.components.MathOperation.Priority.high;
-import static lesson8.components.MathOperation.Priority.low;
+import static lesson8_FinalProject.components.MathOperation.Priority.high;
+import static lesson8_FinalProject.components.MathOperation.Priority.low;
 
 public abstract class MathOperation extends Math{
     public static class Priority{
@@ -17,7 +17,7 @@ public abstract class MathOperation extends Math{
         this.priority = priority;
     }
 
-    abstract int execute(int a, int b);
+    abstract double execute(double a, double b);
 
     static class Addition extends MathOperation{
         Addition(String name) {
@@ -25,7 +25,7 @@ public abstract class MathOperation extends Math{
         }
 
         @Override
-        public int execute(int a,int b){
+        public double execute(double a,double b){
              return a + b;
          }
         }
@@ -35,7 +35,7 @@ public abstract class MathOperation extends Math{
             }
 
             @Override
-            public    int execute(int a,int b){
+            public    double execute(double a,double b){
                 return a - b;
             }
         }
@@ -45,7 +45,7 @@ public abstract class MathOperation extends Math{
             }
 
             @Override
-            public    int execute(int a,int b){
+            public    double execute(double a,double b){
                 return a * b;
             }
         }
@@ -55,7 +55,7 @@ public abstract class MathOperation extends Math{
             }
 
             @Override
-            public    int execute(int a,int b){
+            public    double execute(double a,double b){
                 return a / b;
             }
         }

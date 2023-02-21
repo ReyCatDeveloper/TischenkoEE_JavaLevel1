@@ -1,6 +1,4 @@
-package lesson8.listener;
-
-import lesson8.components.CalcBuffer;
+package lesson8_FinalProject.listener;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

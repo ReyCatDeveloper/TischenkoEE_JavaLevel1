@@ -1,6 +1,6 @@
-package lesson8.listener;
+package lesson8_FinalProject.listener;
 
-import lesson8.components.CalcBuffer;
+import lesson8_FinalProject.components.CalcBuffer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -17,14 +17,8 @@ public class CalcResultButtonListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         CalcBuffer.transferInputBuffer();
-
-   //     inputField.setText("");
-   //     inputField.setText("CalcBuffer.getResult()");
         CalcBuffer.calculateResult();
         inputField.setText(CalcBuffer.getResult());
         CalcBuffer.setExpressionStatus(CalcBuffer.ExpressionStatus.endExpression);
-
-
-
     }
 }

@@ -1,13 +1,11 @@
-package lesson8.listener;
+package lesson8_FinalProject.listener;
 
-import lesson8.components.CalcBuffer;
-import lesson8.components.MathOperation;
+import lesson8_FinalProject.components.CalcBuffer;
+import lesson8_FinalProject.components.MathOperation;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import static lesson8.components.MathOperation.getAllMathOperations;
 
 public class OperatorsListener extends ButtonListener implements ActionListener {
     public OperatorsListener(JTextField inputField) {

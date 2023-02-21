@@ -1,9 +1,8 @@
-package lesson8.components;
+package lesson8_FinalProject.components;
 
 import java.util.ArrayList;
 
-import static lesson8.components.MathOperation.Priority.high;
-import static lesson8.components.MathOperation.Priority.low;
+import static lesson8_FinalProject.components.MathOperation.Priority.high;
 
 public class CalcBuffer {
     public static class ExpressionStatus{
@@ -46,12 +45,12 @@ public class CalcBuffer {
 
     public static void calculateResult(){
         System.out.println("создание numbers");
-        int[] numbers = new int[numbersBuffer.size()];
-        int resultInt = 0;
+        double[] numbers = new double[numbersBuffer.size()];
+        double resultDouble = 0;
 
         System.out.println("заполнение numbers");
         for(int i = 0; i < numbers.length; i++){
-            try{numbers[i] = Integer.parseInt (numbersBuffer.get(i));
+            try{numbers[i] = Double.parseDouble (numbersBuffer.get(i));
             }catch (NumberFormatException e){
                 if(numbersBuffer.get(i) == ""){
                     numbers[i] = 0;
@@ -68,10 +67,6 @@ public class CalcBuffer {
         if(operationsBuffer.size() > 1) {
             System.out.println("количество операторов больше 1 ("+ operationsBuffer.size()+")");
             do {
-
-
-
-
 
                 //Начать вычисление выражения
                 System.out.println("начато вычисление выражения");
@@ -96,9 +91,9 @@ public class CalcBuffer {
 
                     //выполнить приоритетное действие
                     System.out.println("приоритетное действие " + operationsBuffer.get(start).getName() + " " + numbers[start] + " " + numbers[start + 1]);
-                    resultInt = numbers[start];
-                    resultInt = operationsBuffer.get(start).execute(resultInt, numbers[start + 1]);
-                    System.out.println("результат " + resultInt);
+                    resultDouble = numbers[start];
+                    resultDouble = operationsBuffer.get(start).execute(resultDouble, numbers[start + 1]);
+                    System.out.println("результат " + resultDouble);
 
 
                     //переформировать массивы с учетом промежуточного результата. Список операций
@@ -130,7 +125,7 @@ public class CalcBuffer {
                         if (i < start) {
                             transientNumberBuffer.add(numbersBuffer.get(i));
                         } else if (i == start) {
-                            transientNumberBuffer.add(String.valueOf(resultInt));
+                            transientNumberBuffer.add(String.valueOf(resultDouble));
                         } else {
                             transientNumberBuffer.add(numbersBuffer.get(i + 1));
                         }
@@ -144,10 +139,10 @@ public class CalcBuffer {
                         }
 
 
-                    numbers = new int[numbersBuffer.size()];
+                    numbers = new double[numbersBuffer.size()];
                     System.out.println("заполнение numbers");
                     for(int i = 0; i < numbers.length; i++){
-                        try{numbers[i] = Integer.parseInt (numbersBuffer.get(i));
+                        try{numbers[i] = Double.parseDouble (numbersBuffer.get(i));
                         }catch (NumberFormatException e){
                             if(numbersBuffer.get(i) == ""){
                                 numbers[i] = 0;
@@ -157,29 +152,34 @@ public class CalcBuffer {
                             }
                         }
                     }
-
+                        //просмотр заполнения numbers
+                        for (int z = 0; z <numbers.length;z++){
+                            System.out.print(numbers[z]+ " ");
+                        }
+                        System.out.println();
 
 
                 }
                 System.out.println("ЦИКЛ_____________________________________________________________________");
             } while (operationsBuffer.size() > 1);
-        }else if(operationsBuffer.size() == 1){
+        }/*else
+            if(operationsBuffer.size() == 1){
             start = 0;
-            resultInt = numbers[start];
-            resultInt = operationsBuffer.get(start).execute(resultInt, numbers[start + 1]);
-        }else {
+            resultDouble = numbers[start];
+            resultDouble = operationsBuffer.get(start).execute(resultDouble, numbers[start + 1]);
+
+        }*/else if (operationsBuffer.size() == 0){
             System.out.println("новых действий не введено");
+        }
+        if(operationsBuffer.size() == 1) {
+            start = 0;
+            resultDouble = numbers[start];
+            resultDouble = operationsBuffer.get(start).execute(resultDouble, numbers[start + 1]);
         }
 
 
 
-
-
-  //      for(int i = 0; i < operationsBuffer.size(); i++){
-
-  //      }
-
-        result = String.valueOf(resultInt);
+        result = String.valueOf(resultDouble);
 
         numbersBuffer = new ArrayList<>();
         operationsBuffer = new ArrayList<>();
@@ -190,8 +190,10 @@ public class CalcBuffer {
     }
 
     public static void addInputBuffer(String addition){
-        System.out.println("input digital addition "+addition);
-        inputBuffer += addition;
+        if(getExpressionStatus() != ExpressionStatus.endExpression){
+            System.out.println("input digital addition "+addition);
+            inputBuffer += addition;
+        }
     }
     public static void addOperationBuffer(MathOperation operationMath){
 
@@ -204,7 +206,18 @@ public class CalcBuffer {
     }
 
     public static String getResult() {
-        return result;
+        System.out.println("Начат вывод конечного результата");
+        //String stringResult = String.valueOf(CalcBuffer.getResult());
+        String afterDot = result.substring ( result.indexOf ( "." ) + 1);
+        System.out.println("Значение после точки "+ afterDot);
+        long afterDotInt = Long.parseLong(afterDot);
+        if(afterDotInt == 0){
+            double doubleResult = Double.parseDouble(result);
+            int intResultWithoutNumberAfterDot = (int)doubleResult;
+            return result = String.valueOf(intResultWithoutNumberAfterDot);
+        }else {
+            return result;
+        }
 
 
     }
